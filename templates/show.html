@@ -23,7 +23,7 @@
               {% for c in show3 %}
 		<img src="/static/images/{{c}}" height=250 width=200 style="position: relative;left:200px;">
 	{% endfor %}<br>
-  {% if result=='user'}
+  {% if result=='user' %}
   <div class="alert alert-success z-alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
             aria-hidden="true">&times;</span></button>
@@ -32,7 +32,7 @@
 </div>
 
   {% endif %}
-  {% if result=='computer'}
+  {% if result=='computer' %}
   <div class="alert alert-success z-alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
             aria-hidden="true">&times;</span></button>
@@ -41,7 +41,7 @@
 </div>
 
   {% endif %}
-  {% if result=='draw'}
+  {% if result=='draw' %}
   <div class="alert alert-success z-alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
             aria-hidden="true">&times;</span></button>
